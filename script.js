@@ -1,6 +1,4 @@
-const apiUrl = "https://vro6z6n156.execute-api.us-east-1.amazonaws.com/test";
-
-
+const apiUrl = "https://api.threefddi.net/visitor/";
 
 fetch(apiUrl)
 .then(response => response.json())
